@@ -1,0 +1,41 @@
+img { 
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 40px 15px;
+    margin: 0 auto;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 180px;
+    margin: 10px;
+    background-color: rgb(44, 69, 153);
+    font-size: 42px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.card.open {
+    background-color: rgb(168, 38, 38); 
+    color: rgb(255, 255, 255);
+}
+
+.card.success {
+    background-color: rgb(6, 167, 6); 
+    color: rgb(255, 255, 255);
+}
